@@ -1,0 +1,29 @@
+// font: text-font, code-font(monospace)
+
+  // $main-font: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  // $extra-font: 'Merriweather', 'Georgia', serif;
+
+  $font-main: 'Playfair Display', 'Lora', serif;
+  $font-extra: 'Inter', 'Roboto', sans-serif;
+  $font-title: 'Barlow', 'Roboto Flex', sans-serif;
+
+// color: main-color, extra-color, text-color
+
+  $color-primary: #254D4D;
+
+  $bg-offer: linear-gradient(91.1deg, rgba(244, 246, 245, 0.9) -7.89%, rgba(255, 255, 255, 0.9) 132.55%);
+  $bg-services: #254d4d33;
+  $bg-footer: #2E2F32;
+
+  $color-text: #2F2E2E;
+  $color-text-add: #000000;
+  $color-light: #fafafa;
+
+
+// Container's maximum width and breakpoints
+
+  $content-width: 1240px;
+  $desktop-width: 992px;
+  $tablet-width: 768px;
+  $mobile-big-width: 414px;
+  $mobile-small-width: 320px;
