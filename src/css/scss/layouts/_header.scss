@@ -1,1 +1,21 @@
-
+.header {
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 47px;
+    padding-bottom: 90px;
+    @include media-tablet {
+        align-items: center;
+    }
+}
+.header__title {
+    @include flex (0, 1, 41.5%);
+}
+.header__nav {
+    @include flex (0, 1, 58.5%);
+    @include media-tablet {
+        display: none;
+    }
+}

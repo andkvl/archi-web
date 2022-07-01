@@ -2,10 +2,10 @@
 // Может называться utilities или  helpers.
 // Все инструменты и хелперы. Не должна создавать CSS при компиляции.
 
-// @import "abstracts/variables";
+@import "abstracts/variables";
 // @import "abstracts/functions";
-// @import "abstracts/mixins";
-// @import "abstracts/placeholders";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
 
 
 // 2. Vendors
@@ -13,15 +13,16 @@
 
 // 2 файла в папке
 
-// @import "vendors/normalize";
-// @import "vendors/constant";
+@import "vendors/normalize";
+@import "vendors/constant";
 
 
 // 3. Base
 // Общие шаблоны проекта, стандартные стили, типографские правила.
 
-// @import "base/typography";
-// @import "base/base";
+@import "base/typography";
+@import "base/base";
+@import "base/title";
 
 
 // 4. Layout
@@ -30,14 +31,14 @@
 // Стили для основных частей сайта, сетка или даже CSS-стили для всех форм.
 
 
-// @import "layouts/header";
-// @import "layouts/navigation";
-// @import "layouts/offer";
-// @import "layouts/services";
+@import "layouts/header";
+@import "layouts/navigation";
+@import "layouts/offer";
+@import "layouts/services";
 // @import "layouts/about-us";
 // @import "layouts/projects";
 // @import "layouts/feedback";
-// @import "layouts/footer";
+@import "layouts/footer";
 
 
 // 5. Components
@@ -48,7 +49,7 @@
 // buttons, carousel, cover, dropdown, media, thumbnails, etc.
 
 // @import "components/buttons";
-// @import "components/hamburger";
+@import "components/hamburger";
 
 
 // 6. Pages

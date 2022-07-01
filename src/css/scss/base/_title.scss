@@ -1,0 +1,6 @@
+.title {
+    &_dark {}
+    &_light {
+        color: $color-light;
+    }
+}
