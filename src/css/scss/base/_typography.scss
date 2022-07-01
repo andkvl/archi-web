@@ -94,16 +94,3 @@
        url('../fonts/inter-v11-latin-900.woff2') format('woff2'),
        url('../fonts/inter-v11-latin-900.woff') format('woff');
 }
-
-body {
-  // font-family: $main-font;
-  // По умолчанию font-size идёт 16px. Если нужен 14px, то лучше указывать в em. fs: 0.875em; (14/16=0.875)
-  // font-size: calc(0.5em + 1vw); or 0.6em
-  // В normalize: line-height: 1.15; + margin: 0;
-  // line-height: 1.4; 1.4 - 1.6
-  // letter-spacing: 0.02em; 0.01em-0.03em
-  // word-spacing - Устанавливает интервал между словами
-  // white-space - Устанавливает, как отображать пробелы между словами.
-
-  // color: $text-color;
-}
