@@ -14,10 +14,11 @@
 }
 .feedback__item {
     padding-bottom: 7px;
+    @include flex (0, 1, 50%);
 }
 .item-feedback {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .item-feedback__photo {
 }
