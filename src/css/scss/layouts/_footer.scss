@@ -3,58 +3,69 @@
 }
 
 .footer__container {
+    justify-content: space-between;
     display: flex;
     padding-top: 48px;
+    padding-bottom: 48px;
     color: $color-light;
     font-family: $font-extra;
     @include font (1.7, 2.1);
     a {
         color: inherit;
         @include font (1.7, 2.1);
+        @extend %transition;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 .footer__primary {
-    // @include flex (0, 1, 282px);
+    @include flex (0, 1, 282px);
+    display: flex;
+    flex-direction: column;
+    > *:not(:last-child) {
+        margin-bottom: 7px;
+    }
 }
 .footer__title {
-    margin-bottom: 7px;
-}
-.title {
-}
-.title_light {
+    // margin-bottom: 7px;
 }
 .footer__text {
     letter-spacing: 0.45px;
     line-height: 2.9rem;
+    @include flex (1);
 }
 .footer__social {
 }
-.social {
-}
-.social__item {
-}
-.social__item_facebook {
-}
-.social__item_twitter {
-}
-.social__item_instagram {
-}
 .footer__articles {
+    @include flex (0, 1, 201px);
 }
 .footer__label {
     margin-top: 10px;
+    margin-bottom: 18px;
 }
 .footer__heading {
+    margin-bottom: 11px;
+    line-height: 2.5rem;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
 }
 .footer__links {
+    @include flex (0, 1, 110px);
 }
 .footer__menu {
 }
 .menu-footer__list {
+    > *:not(:last-child) {
+        margin-bottom: 6px;
+    }
 }
 .menu-footer__item {
 }
 .menu-footer__link {
 }
 .footer__location {
+    @include flex (0, 1, 290px);
 }
