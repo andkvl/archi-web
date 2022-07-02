@@ -1,5 +1,5 @@
 @charset "UTF-8";
-a {
+a, .about-us__link {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -533,9 +533,13 @@ p {
   background-color: #254d4d33;
 }
 
+.services__container {
+  padding-top: 19px;
+  padding-bottom: 68px;
+}
+
 .services__title {
   text-align: center;
-  padding-top: 20px;
   padding-bottom: 50px;
 }
 
@@ -592,6 +596,48 @@ p {
 
 .item-services__text {
   line-height: 1.95rem;
+}
+
+.about-us__container {
+  padding-top: 77px;
+}
+
+.about-us__image {
+  float: left;
+  margin-right: 7.5%;
+}
+
+.about-us__body {
+  padding-top: 69px;
+  margin-right: -36px;
+}
+
+.about-us__title {
+  margin-bottom: 28px;
+}
+
+.about-us__text {
+  font-size: 3.1rem;
+  line-height: 3.6rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 4.9rem;
+  margin-bottom: 36px;
+}
+
+.about-us__link {
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.about-us__link:hover {
+  text-decoration: underline;
+}
+
+.clearfix {
+  clear: both;
 }
 
 .footer {

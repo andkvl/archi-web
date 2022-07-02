@@ -1,1 +1,33 @@
-
+.about-us {
+}
+.about-us__container {
+    // display: flex;
+    padding-top: 77px;
+}
+.about-us__image {
+    float: left;
+    margin-right: 7.5%;
+}
+.about-us__body {
+    // padding-left: 7.5%;
+    padding-top: 69px;
+    margin-right: -36px;
+}
+.about-us__title {
+    margin-bottom: 28px;
+}
+.about-us__text {
+    @include font (3.1, 3.6);
+    line-height: 4.9rem;
+    margin-bottom: 36px;
+}
+.about-us__link {
+    @include font (2.4, 2.9, 600);
+    @extend %transition;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.clearfix {
+    clear: both;
+}
