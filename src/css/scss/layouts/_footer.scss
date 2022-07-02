@@ -1,3 +1,60 @@
 .footer {
     background-color: $bg-footer;
 }
+
+.footer__container {
+    display: flex;
+    padding-top: 48px;
+    color: $color-light;
+    font-family: $font-extra;
+    @include font (1.7, 2.1);
+    a {
+        color: inherit;
+        @include font (1.7, 2.1);
+    }
+}
+.footer__primary {
+    // @include flex (0, 1, 282px);
+}
+.footer__title {
+    margin-bottom: 7px;
+}
+.title {
+}
+.title_light {
+}
+.footer__text {
+    letter-spacing: 0.45px;
+    line-height: 2.9rem;
+}
+.footer__social {
+}
+.social {
+}
+.social__item {
+}
+.social__item_facebook {
+}
+.social__item_twitter {
+}
+.social__item_instagram {
+}
+.footer__articles {
+}
+.footer__label {
+    margin-top: 10px;
+}
+.footer__heading {
+}
+.footer__links {
+}
+.footer__menu {
+}
+.menu-footer__list {
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+}
+.footer__location {
+}

@@ -804,6 +804,40 @@ p {
   background-color: #2E2F32;
 }
 
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 48px;
+  color: #fafafa;
+  font-family: "Inter", "Roboto", sans-serif;
+  font-size: 1.7rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer__container a {
+  color: inherit;
+  font-size: 1.7rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer__title {
+  margin-bottom: 7px;
+}
+
+.footer__text {
+  letter-spacing: 0.45px;
+  line-height: 2.9rem;
+}
+
+.footer__label {
+  margin-top: 10px;
+}
+
 .hamburger:before, .hamburger:after, .hamburger__line {
   content: "";
   display: inline-block;
