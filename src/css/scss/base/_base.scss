@@ -61,6 +61,10 @@ body {
   // padding-right: 15px;
   // зачем - ?
   // width: 100%;
+  @include media-laptop-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 h2 {
   // font-family: $font-main;

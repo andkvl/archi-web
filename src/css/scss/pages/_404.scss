@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  @include flex(1);
+}
+
+.error__container {
+}
+.error__img {
+}
+.error__title {
+}
+.error__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 37px;
+    min-width: 100px;
+    padding: 5px 30px;
+    border: none;
+}

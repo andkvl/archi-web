@@ -6,8 +6,13 @@
     align-items: baseline;
     padding-top: 47px;
     padding-bottom: 90px;
+    @include media-desktop {
+        padding-bottom: 47px;
+    }
     @include media-tablet {
         align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 .header__title {

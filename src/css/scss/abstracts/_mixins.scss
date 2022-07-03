@@ -11,18 +11,18 @@
   flex: $grow $shrink $basis;
 }
 
-// @mixin media-laptop-padding {
-//   @media (max-width: $content-width + 10px) {
-//     @content;
-//   }
-// }
+@mixin media-laptop-padding {
+  @media (max-width: $content-padding) {
+    @content;
+  }
+}
 @mixin media-laptop {
   @media (max-width: $content-width) {
     @content;
   }
 }
 @mixin media-desktop {
-  @media (max-width: $add-width) {
+  @media (max-width: $desktop-width) {
     @content;
   }
 }
